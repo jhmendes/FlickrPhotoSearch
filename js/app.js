@@ -10,7 +10,7 @@ $(document).ready(function() {
    $submitButton.attr("disabled", true).val("searching...");
    
     // the AJAX part
-    var flickerAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+    var flickerAPI = "https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
     var animal = $(this).text();
     var flickrOptions = {
       tags: $searchField.val(),
