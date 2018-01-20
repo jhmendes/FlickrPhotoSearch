@@ -1,7 +1,6 @@
 $(document).ready(function() {
 
-
- $('form').submit(function (evt) {
+    $('form').submit(function (evt) {
    evt.preventDefault();
 
    var $searchField = $('#search');
